@@ -1,0 +1,132 @@
+body {
+	background: #0CF;
+    }
+h3 {
+	text-align: left; 
+	font-family: 'Source Sans Pro', sans-serif; 
+	font-size: 20px;
+	font-weight: normal;
+
+	color: gray;
+}
+.holder {
+	text-align: center;
+	font-family: 'Source Sans Pro', sans-serif;
+	padding: 10px;
+	border-radius: 10px;
+
+	width: 50%;
+	margin:0 auto; 
+	
+	background-color: rgba(255,255,255,0.4);
+}
+.gen_in {
+	font-family: 'Source Sans Pro', cursive;
+	padding: 8px 20px;
+	border-radius: 5px;
+
+	margin: 5px 30px;
+
+	background-color: rgba(255,255,255,0.65);
+}
+.gen_in p {
+	display: inline;
+	font-size: 20px;
+	font-weight: bold;
+
+	margin-right: 20px;
+
+	color: gray;
+}
+.gen_in input {
+	font-family: 'Source Sans Pro', sans-serif;
+	outline: none;
+	border-radius: 10px;
+	text-align: center;
+	font-size: 18px;
+
+	height: 40px;
+	width: 60%;
+
+	border-color: rgba(255,255,255, 0.2);
+	color: black;
+
+    -webkit-transition: border-color 0.5s;
+    -moz-transition: border-color 0.5s;
+    -o-transition: border-color 0.5s;
+    transition: border-color 0.5s;
+}
+
+.gen_in input:focus {
+	border-color: rgba(0,0,255, 0.3);
+}
+
+.gen_in textarea{
+	font-family: 'Source Sans Pro', sans-serif;
+	outline: none;
+	border-radius: 20px;
+	border-width: 2px;
+	font-size: 18px;
+
+	width: 80%;
+	height: 200px;
+
+	border-color: white;
+
+	-webkit-transition: border-color 0.3s;
+    -moz-transition: border-color 0.3s;
+    -o-transition: border-color 0.3s;
+    transition: border-color 0.3s;
+}
+.gen_in textarea:focus {
+	border-color:rgba(0,0,255, 0.3);
+}
+.gen_pay {
+	font-family: 'Source Sans Pro', cursive;
+	padding: 8px 20px;
+	border-radius: 5px;
+
+	margin: 5px 30px;
+
+	background-color: rgba(255,255,255,0.65);
+}
+.gen_pay p{
+	display: inline;
+	font-size: 20px;
+	font-weight: bold;
+	
+	margin-right: 20px;
+
+	color: gray;
+}
+#cards input{
+	vertical-align: middle;
+	margin:0px 20px;
+}
+#cards img {
+	vertical-align: middle;
+
+	height: 50px;
+}
+
+input[type = "submit"] {
+	border: none;
+	border-radius: 4px;
+	font-size: 20px;
+
+	width: 150px;
+	height: 50px;
+
+	background-color: #93C85B;
+	color: #D5F2D7;
+
+	-webkit-transition: background-color 0.3s, color 0.3s;
+    -moz-transition: background-color 0.3s, color 0.3s;
+    -o-transition: background-color 0.3s, color 0.3s;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+input[type = "submit"]:hover {
+	background-color: #74AB43;
+	color: white;
+}
